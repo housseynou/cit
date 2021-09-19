@@ -1,0 +1,88 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2 September 2021 15h59
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.2
+WORDPRESS:	5.7.2
+PHP INFO:	7.4.20 | SAPI: apache2handler
+SERVER:		Apache/2.4.38 (Debian) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:30 | filtered:0 | create:30
+FILTERED: []
+SQL CREATED: 20210902_cit_df63c69af6520a438256_20210902155846_database.sql
+SQL FILE SIZE: 9.94MB (10420513)
+SQL FILE TIME: 2021-09-02 15:59:02
+SQL RUNTIME: 1.67 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20210902_cit_df63c69af6520a438256_20210902155846_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	144.05MB
+STATS:	Dirs 1,117 | Files 5,713
+SQL ADDED: 20210902_cit_df63c69af6520a438256_20210902155846_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6830
+    [filename] => /var/www/html/wp-content/backups-dup-lite/tmp/20210902_cit_df63c69af6520a438256_20210902155846_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 6829
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/var/www/html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 51.56MB
+ARCHIVE RUNTIME: 82.34 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /var/www/html/wp-content/backups-dup-lite/tmp/20210902_cit_df63c69af6520a438256_20210902155846_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 9.94MB
+INSTALLER FILE: 64.25KB
+ARCHIVE FILE: 52.94MB 
+COMPTE ATTENDU DE FICHIERS/RÉPERTOIRES : 6,830
+COMPTE ACTUEL DE FICHIERS/RÉPERTOIRES : 6,829
+TEST DE COHÉRENCE D’ARCHIVE : Bon
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 100.55 sec.
+PEAK PHP MEMORY USED: 18.06MB
+DONE PROCESSING => 20210902_cit 2 September 2021 16h00
+
